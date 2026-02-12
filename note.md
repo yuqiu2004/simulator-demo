@@ -1,3 +1,7 @@
-## todo 
+## 预测模型
 
-- 看一下总体是否符合要求
+F:(cpu,memory,resolution)→(latency,accuracy)
+
+- 输入：资源配额与输入规模 
+- 输出：任务执行性能指标
+
