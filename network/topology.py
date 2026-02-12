@@ -2,7 +2,7 @@ import networkx as nx
 
 class Topology:
     def __init__(self):
-        self.graph = nx.Graph()
+        self.graph = nx.DiGraph()
 
     def build_from_config(self, config):
         for node in config.nodes:
