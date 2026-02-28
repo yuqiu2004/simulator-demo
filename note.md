@@ -1,10 +1,15 @@
 ## ns-3
 
+文档地址
+- 概述         https://pypi.org/project/ns3/#building-ns-3
+- 详细api介绍   https://www.nsnam.org/doxygen/index.html
+- 第三方学习资料 https://github.com/osedu/ns3-introduction-video-tutorial-2025/tree/main
+
 ### 环境问题
 
 使用pip下载ns3的时候 即`pip install ns3` 可能会发生构建错误 提示这是一个与pip无关的错误 那么原因可能是系统中缺少基础的构建工具
 
-`sudo apt install g++ build-essential python3-dev libffi-dev clang` 下载相关工具再尝试是否可以正常下载ns3库
+`sudo apt install build-essential python3-dev libffi-dev clang` 下载相关工具再尝试是否可以正常下载ns3库
 
 
 ## 预测模型
