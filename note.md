@@ -3,7 +3,13 @@
 文档地址
 - 概述         https://pypi.org/project/ns3/#building-ns-3
 - 详细api介绍   https://www.nsnam.org/doxygen/index.html
-- 第三方学习资料 https://github.com/osedu/ns3-introduction-video-tutorial-2025/tree/main
+- 第三方学习资料 
+    - https://github.com/osedu/ns3-introduction-video-tutorial-2025/tree/main
+    - https://github.com/Vivek-anand-jain/Implementation-of-TCP-Fit-in-ns-3/blob/master/doc/manual/source/python.rst
+    - https://www.nsnam.org/wiki/Python_bindings
+    - https://forsworns.github.io/zh/blogs/20200616/
+    - https://ns3-code.com/ns3-python/ 
+
 
 ### 环境问题
 
