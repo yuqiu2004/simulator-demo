@@ -13,9 +13,14 @@
 
 ### 环境问题
 
-使用pip下载ns3的时候 即`pip install ns3` 可能会发生构建错误 提示这是一个与pip无关的错误 那么原因可能是系统中缺少基础的构建工具
+- 使用pip下载ns3的时候 即`pip install ns3` 可能会发生构建错误 提示这是一个与pip无关的错误 那么原因可能是系统中缺少基础的构建工具
 
-`sudo apt install build-essential python3-dev libffi-dev clang` 下载相关工具再尝试是否可以正常下载ns3库
+    `sudo apt install build-essential python3-dev libffi-dev clang` 下载相关工具再尝试是否可以正常下载ns3库
+
+- pip环境下python3.10似乎不能成功调用ns3
+
+    需要尝试降低python version or 使用源码构建
+
 
 
 ## 预测模型
